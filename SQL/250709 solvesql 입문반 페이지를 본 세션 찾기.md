@@ -10,10 +10,10 @@
 - total
 - pv_no ( = total - pv_yes)
 - pv_yes
-  
+
 ### 의사 코드 작성
 1. page_title = "백문이불여일타 SQL 캠프 입문반" & event_name = "page_view"인 세션 데이터 추출 (page_view_sessions)
-2. 전체 세션 수 계산, pv_yes 계산 & pv_no = total - pv_yes로 계산
+2. 전체 세션 수 계산, pv_yes 계산 & pv_no = total - pv_yes로 계산하기
 
 ### 답안 코드
 ```sql
